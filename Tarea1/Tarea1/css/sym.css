@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(to right, blue 50%, red 50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rectangulo{
+    width: 500px;
+    height: 100px;
+    background: linear-gradient(to right, rgb(8, 7, 7) 50%, blue 50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fotosonic{
+    margin: 3%;
+   width: 550px;
+   height: 800px;
+   background: rgb(30, 38, 146); 
+   flex-direction: column;
+  
+
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+p{
+    width: 90%;
+}
