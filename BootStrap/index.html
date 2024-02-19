@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Pagina</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg  bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Anahuac</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <section class="bg-dark text-light p-5 text-center text-sm-start my-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <h1>Volvernos <span class="text-warning">Desarrolladores de Aplicaciones Web</span></h1>
+                <p class="lead my-4">Pagina dedicada al aprendimiento de desarrollo web. </p>
+                <button class="btn btn-warning btn-lg">Inscribirnos</button>
+            </div>
+        </div>
+      </section>
+      <div class="card" style="width: 18rem;">
+        <img src="BootStrap\IMG\showcase.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Esteban Cervera</h5>
+          <p class="card-text">Alumno de Ingenieria en TI.</p>
+          <a href="#" class="btn btn-primary">Ver Perfil</a>
+        </div>
+      </div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Importancia
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Adaptate o muere.</strong> 
+              Aprender programación web es crucial hoy en día porque permite crear y gestionar presencias en línea, abriendo puertas a innumerables oportunidades laborales en un campo en constante crecimiento. Además, desarrolla habilidades de resolución de problemas y pensamiento crítico, útiles en diversas áreas. Esta disciplina ofrece la posibilidad de trabajar en proyectos variados, fomentando la creatividad y la innovación en el desarrollo de soluciones tecnológicas. En resumen, la programación web es una habilidad esencial para navegar y prosperar en el mundo digital.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Clases
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Dias y horarios.</strong> Todos los lunes y viernes de 8 a 10 pm.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Consejos
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Recomendamos hacer lo siguiente</strong> 
+              Para aprender programación web de manera efectiva, mi consejo es comenzar con los fundamentos: HTML para estructura, CSS para diseño, y JavaScript para interactividad. Dedica tiempo diariamente a practicar y construir pequeños proyectos que te interesen, ya que la práctica constante es clave para consolidar lo aprendido. Además, utiliza recursos en línea como tutoriales, cursos, y comunidades de desarrollo, donde podrás resolver dudas y compartir conocimientos. Recuerda que la curiosidad y la perseverancia son tus mejores aliados en el proceso de aprendizaje.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="BootStrap\IMG\fundamentals.svg" class="card-img-top" alt="...">
+      
+        <div class="card-body">
+          <h5 class="card-title">Recomendacion</h5>
+          <p class="card-text">¡Si quieres volverte un buen programador web, te recomendamos estar al tanto de la pagina!</p>
+          <a href="#" class="btn btn-primary">Mantenme informado</a>
+        </div>
+      </div>
+      
+      <div class="card" aria-hidden="true">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title placeholder-glow">
+            <span class="placeholder col-6"></span>
+          </h5>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-7"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-4"></span>
+            <span class="placeholder col-6"></span>
+            <span class="placeholder col-8"></span>
+          </p>
+          <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+        </div>
+      </div>
+</body>
+</html>
